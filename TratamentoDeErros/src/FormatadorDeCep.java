@@ -1,7 +1,7 @@
 public class FormatadorDeCep {
     public static void main(String[] args) {
         try {
-            String cepFormatado = formatarCep("09854379116");
+            String cepFormatado = formatarCep("09854379");
                 System.out.println(cepFormatado);
         } catch (CepInvalidoException e) {
             // TODO Auto-generated catch block

@@ -20,7 +20,7 @@ public class AboutMe {
                 
                 System.out.println("Insira a sua altura: ");
                     double altura = entrada.nextDouble();
-
+                    entrada.close();
                 System.out.println("Olá, me chamo "+primeiroNome.toUpperCase()+sobrenome.toUpperCase());
                     System.out.println("Possuo "+idade+" anos");
                         System.out.println("E tenho "+altura+" cm de altura");
